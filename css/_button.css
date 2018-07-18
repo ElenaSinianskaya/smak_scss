@@ -1,0 +1,38 @@
+.action-button {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+  .action-button:hover {
+    opacity: 0.7; }
+
+.primary-button {
+  background-color: #ffe600; }
+  .primary-button .button {
+    padding: 18px 49px 19px 48px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #131316; }
+
+.secondary-button {
+  background-color: #ffe600; }
+  .secondary-button .button {
+    padding: 19px 49px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff; }
+
+.anchor {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #ffe600; }
+  .anchor:hover {
+    opacity: 0.7; }
+  .anchor .arrow {
+    padding: 19px 23px 20px 23px;
+    color: #ffffff;
+    font-size: 19px; }

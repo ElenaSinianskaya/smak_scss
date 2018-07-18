@@ -1,0 +1,83 @@
+.section {
+  position: relative;
+  overflow: hidden;
+  background: #ffffff; }
+  .section-background img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+  .section-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; }
+  .section-foreground {
+    padding: 30px 0;
+    position: relative;
+    z-index: 1000;
+    overflow: hidden; }
+  .section-inverse {
+    background: #131316; }
+
+.header {
+  background: #122b30; }
+
+.section-heading-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.section-main {
+  background: #11343a; }
+  .section-main .section-foreground {
+    padding: 0; }
+    .section-main .section-foreground .section-body {
+      min-height: 951px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 30px 0; }
+
+.section-services .section-foreground {
+  min-height: 590px; }
+
+.section-tools .section-foreground {
+  min-height: 470px; }
+
+.section-portfolio .section-foreground {
+  min-height: 1792px; }
+
+.section-progress .section-foreground {
+  min-height: 402px; }
+
+.section-about-us .section-foreground {
+  min-height: 671px; }
+
+.section-team .section-foreground {
+  min-height: 580px; }

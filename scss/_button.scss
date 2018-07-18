@@ -1,0 +1,124 @@
+$header-bg:#122b30;
+$header-adaptive-color:#ffe600;
+
+$section-primary-bg:#ffffff;
+$section-secondary-bg:#12191e;
+$section-inverse-bg:#131316;
+
+$section-main-primary-bg:#11343a;
+$section-main-secondary-bg:#122b30;
+$section-main-title-primary-color:#000000;
+
+$button-primary-bg:#ffe600;
+$button-primary-color:#131316;
+$button-secondary-bg:#ffe600;
+$button-secondary-color:#ffffff;
+
+$anchor-bg:#ffe600;
+$anchor-color:#ffffff;
+
+$section-title-primary-color:#000000;
+$section-title-secondary-color:#ffffff;
+$section-title-rarest-color:#ffe600;
+
+$section-smaller-title-primary-color:#000000;
+$section-smaller-title-secondary-color:#ffffff;
+$section-smaller-title-rarest-color:#ffe600;
+
+$section-less-title-primary-color:#515151;
+
+$section-pre-title-primary-color:#515151;
+
+$main-title-color:#ffffff;
+
+$text-primary-color:#707070;
+$text-inverse-color:#ffffff;
+
+$nav-link-primary-color:#ffffff;
+$nav-link-is-active-color:#ffe600;
+$nav-before-item-bg:#ffe600;
+
+$nav-link-portfolio-primary-color:#515151;
+
+$card-title-primary-color:#131316;
+$card-title-inverse-color:#ffffff;
+$card-title-rarest-color:#ffe600;
+
+$card-middle-title-primary-color:#515151;
+$card-middle-title-secondary-color:#ffffff;
+
+$subtitle-hover-pimary-color:#ffffff;
+
+$card-expand-icon-close-color:#ffe600;
+
+
+$card-anchor-hover-primary-bg:#cfc20c;
+$card-anchor-hover-media-color:#515151;
+
+$icon-primary-color:#ffffff;
+$icon-services-background:#ffe600;
+$icon-services-background-hover:transparent;
+$icon-services-border-color:transparent;
+$icon-services-border-color-hover:#131316;
+$icon-services-color-hover:#ffe600;
+$icon-about-us-bg:#ffe600;
+$icon-about-us-color:#ffffff;
+
+
+$element-line-after-bg:#ffe600;
+
+$card-border-primary-color:#ffe600;
+
+$counter-primary-color:#ffffff;
+
+
+@mixin text_styles($color, $font-size, $font-weight, $text-transfortm){
+  color:$color;
+  font-size:$font-size;
+  font-weight:$font-weight;
+  text-transform:$text-transfortm;
+}
+
+.action-button{
+  display:-webkit-inline-flex;
+  display:-ms-inline-flex;
+  display: inline-flex;
+    &:hover{
+      opacity: 0.7;
+    }
+}
+
+.primary-button{
+  background-color: $button-primary-bg;
+  .button{
+    padding: 18px 49px 19px 48px;
+    font-weight: bold;
+    font-size: 20px;
+    color: $button-primary-color;
+  }
+}
+
+.secondary-button{
+  background-color: $button-secondary-bg;
+  .button{
+    padding: 19px 49px;
+    font-weight: bold;
+    font-size: 20px;
+    color: $button-secondary-color;
+  }
+}
+
+.anchor{
+  display:-webkit-inline-flex;
+  display:-ms-inline-flex;
+  display: inline-flex;
+  background-color: $anchor-bg;
+    &:hover{
+      opacity: 0.7;
+    }
+  .arrow{
+    padding: 19px 23px 20px 23px;
+    color: $anchor-color;
+    font-size: 19px;
+  }
+}
